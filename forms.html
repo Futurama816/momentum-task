@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html lang="ka">
+<html lang="ka" class="page-container">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>დავალების შექმნის გვერდი</title>
    </head>
   <body>
+    <form action="" class="form-container"><!--add link to backed later--> 
 
+      <label for="title">სათაური*</label><br>
+      <input
+      type="text"
+      id="title"
+      name="tl"
+      required
+      minlength="3"
+      maxlength="255"
+      />
+      <label for="department">დეპარტამენტი*</label><br>
+
+      <select name="dept" id="department">
+        <option value="value1">მერე დაამატე</option>
+        <option value="value2">მერე დაამატე</option>
+      </select>
+
+     </form>
    </body>
 </html>
